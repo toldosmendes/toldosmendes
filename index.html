@@ -1,68 +1,52 @@
-                                                                                                                                                                                                                               
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toldos e Persianas Mendes</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <title>Toldos Mendes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 20px 0;
+      margin-bottom: 30px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: 40px;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="assets/img/logo.png" alt="Logo Toldos e Persianas Mendes" class="logo">
-        <h1>Toldos e Persianas Mendes</h1>
-        <p>Proteção solar e decoração com qualidade e compromisso.</p>
-    </header>
+  <header>
+    <h1>Bem-vindo ao Toldos Mendes</h1>
+    <p>Seu site está no ar com GitHub Pages!</p>
+  </header>
 
-    <section class="sobre">
-        <h2>Sobre Nós</h2>
-        <p>A Toldos e Persianas Mendes é uma empresa especializada em soluções de proteção solar e decoração, oferecendo produtos sob medida para residências, comércios e indústrias.</p>
-        <p>Com anos de experiência no mercado, atuamos com qualidade, pontualidade e compromisso, oferecendo uma linha completa de toldos, persianas, cortinas e coberturas que aliam funcionalidade, estética e durabilidade.</p>
-        <p>Nosso diferencial está no atendimento personalizado e no cuidado com cada detalhe — desde o projeto até a instalação final — sempre com materiais de primeira linha e equipe técnica especializada.</p>
-        <p>Seja para proteger ambientes da luz solar, garantir mais conforto térmico, valorizar a fachada ou criar espaços externos agradáveis, a Toldos e Persianas Mendes tem a solução ideal para você.</p>
-        <p>Atendemos toda a Grande São Paulo, com agilidade, respeito ao cliente e preços justos.</p>
-    </section>
+  <main>
+    <button onclick="mostrarMensagem()">Clique aqui</button>
+    <p id="mensagem"></p>
+  </main>
 
-    <section class="produtos">
-        <h2>Tipos de Toldos</h2>
-        <ul>
-            <li>Toldo Retrátil (Articulado)</li>
-            <li>Toldo Cortina (Vertical)</li>
-            <li>Toldo Fixo</li>
-            <li>Toldo Capota</li>
-            <li>Toldo de Policarbonato</li>
-            <li>Toldo em Lona PVC</li>
-            <li>Coberturas Móveis e Fixas</li>
-        </ul>
+  <footer>
+    <p>© 2025 Toldos Mendes</p>
+  </footer>
 
-        <h2>Tipos de Persianas</h2>
-        <ul>
-            <li>Persiana Vertical</li>
-            <li>Persiana Horizontal de Alumínio</li>
-            <li>Persiana Horizontal de Madeira ou PVC</li>
-            <li>Persiana Rolô (Roller)</li>
-            <li>Persiana Double Vision (Dupla Camada)</li>
-        </ul>
-
-        <h2>Tipos de Cortinas</h2>
-        <ul>
-            <li>Cortina Tradicional com Trilho ou Varão</li>
-            <li>Cortina Wave</li>
-            <li>Cortina Blackout</li>
-            <li>Cortina de Voil com Forro</li>
-        </ul>
-    </section>
-
-    <section class="contato">
-        <h2>Contato</h2>
-        <p>📞 WhatsApp: (11) 9 7689-5652</p>
-        <p>✉️ E-mail: toldosmendes.comercial@gmail.com</p>
-        <p>📍 Endereço: Av. General Penha Brasil, 2.651 – São Paulo/SP</p>
-        <p>📷 Instagram: @toldosepersianasmendes</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Toldos e Persianas Mendes. Todos os direitos reservados.</p>
-    </footer>
+  <script>
+    function mostrarMensagem() {
+      document.getElementById('mensagem').innerText = 'Obrigado por visitar o nosso site!';
+    }
+  </script>
 </body>
 </html>
